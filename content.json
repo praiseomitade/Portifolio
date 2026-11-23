@@ -41,20 +41,18 @@
   ],
   "hero": {
     "eyebrow": "DATA ANALYTICS · BUSINESS INTELLIGENCE · REPORTING",
-    "greeting": "",
     "name": "Praise Omitade",
     "title": "Data Analyst | I Help Businesses & Organizations Stop Guessing with Clear Dashboards, Reports & Data Insights | Excel, MySQL & Power BI",
-    "description": "",
     "primaryButton": "View My Projects",
     "secondaryButton": "Download Resume",
-    "image": "assets/profile.jpg",
+    "image": "/Portfolio/assets/headshot-linkedin.jpg",
     "imageAlt": "Portrait of Praise Omitade",
     "tagline": "Making data make sense.",
     "tertiaryButton": "Let's Connect"
   },
   "metrics": [
     {
-      "value": "SQL + BI",
+      "value": "Excel + MySQL + Power BI",
       "label": "Analytics workflows"
     },
     {
@@ -128,8 +126,6 @@
           "Data Cleaning",
           "Reporting"
         ],
-        "image": "",
-        "link": "",
         "linkLabel": "View Project"
       }
     ]
@@ -141,8 +137,7 @@
       "I'm Praise Omitade, a Data Analyst with over two years of experience in data analysis, research, and reporting. Over the years, I've worked with different datasets, gaining practical experience in data collection, cleaning, analysis, interpretation, and preparing reports.",
       "I've also developed my technical skills in Microsoft Excel, MySQL, Power BI, Tableau, and IBM SPSS, supported by professional certifications from AQskills. My skills include data entry, data cleaning, database management, SQL queries, PivotTables, Power Query, data visualization, dashboard development, and reporting.",
       "I help businesses and organizations understand their data, identify trends, track performance, and make informed decisions. I approach every project with attention to detail, accuracy, and a clear understanding of what needs to be achieved. My focus is on delivering reliable analysis, well-structured reports, and practical recommendations that address real business needs."
-    ],
-    "highlights": []
+    ]
   },
   "certifications": {
     "eyebrow": "PROFESSIONAL DEVELOPMENT",
@@ -150,33 +145,23 @@
     "items": [
       {
         "title": "Data Analytics & Visualization with Tableau and Power BI",
-        "issuer": "AQskills",
-        "image": "",
-        "link": ""
+        "issuer": "AQskills"
       },
       {
         "title": "Database Management with MySQL",
-        "issuer": "AQskills",
-        "image": "",
-        "link": ""
+        "issuer": "AQskills"
       },
       {
         "title": "Microsoft Excel",
-        "issuer": "AQskills",
-        "image": "",
-        "link": ""
+        "issuer": "AQskills"
       },
       {
         "title": "Power BI",
-        "issuer": "AQskills",
-        "image": "",
-        "link": ""
+        "issuer": "AQskills"
       },
       {
         "title": "SQL",
-        "issuer": "AQskills",
-        "image": "",
-        "link": ""
+        "issuer": "AQskills"
       }
     ]
   },
@@ -184,13 +169,8 @@
     "eyebrow": "GET IN TOUCH",
     "title": "Let's Work Together",
     "description": "Have a project, reporting need, or opportunity in mind? I'd be glad to hear from you.",
-    "email": "",
     "github": "https://github.com/praiseomitade",
-    "linkedin": "",
-    "resume": "",
-    "button": "Email Me",
-    "upwork": "",
-    "formEndpoint": ""
+    "button": "Email Me"
   },
   "services": {
     "eyebrow": "HOW I CAN HELP",
