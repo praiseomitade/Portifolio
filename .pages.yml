@@ -1,0 +1,301 @@
+# Pages CMS editor for praiseomitade.github.io/Portfolio/
+# Edit content with https://app.pagescms.org after authorizing your GitHub repository.
+media:
+  input: assets
+  output: /Portfolio/assets
+  rename: safe
+content:
+- name: portfolio
+  label: Edit portfolio
+  type: file
+  path: content.json
+  format: json
+  fields:
+  - name: site
+    label: Site
+    type: object
+    fields:
+    - name: name
+      label: Name
+      type: string
+    - name: initials
+      label: Initials
+      type: string
+    - name: availability
+      label: Availability
+      type: string
+    - name: footer
+      label: Footer
+      type: text
+  - name: navigation
+    label: Navigation
+    type: object
+    list:
+      collapsible:
+        collapsed: true
+        summary: '{title}'
+    fields:
+    - name: label
+      label: Label
+      type: string
+    - name: id
+      label: Id
+      type: string
+  - name: hero
+    label: Hero
+    type: object
+    fields:
+    - name: eyebrow
+      label: Eyebrow
+      type: string
+    - name: greeting
+      label: Greeting
+      type: string
+    - name: name
+      label: Name
+      type: string
+    - name: title
+      label: Title
+      type: string
+    - name: description
+      label: Description
+      type: text
+    - name: primaryButton
+      label: Primary Button
+      type: string
+    - name: secondaryButton
+      label: Secondary Button
+      type: string
+    - name: image
+      label: Image
+      type: image
+    - name: imageAlt
+      label: Image Alt
+      type: string
+    - name: tagline
+      label: Tagline
+      type: string
+    - name: tertiaryButton
+      label: Tertiary Button
+      type: string
+  - name: metrics
+    label: Metrics
+    type: object
+    list:
+      collapsible:
+        collapsed: true
+        summary: '{title}'
+    fields:
+    - name: value
+      label: Value
+      type: string
+    - name: label
+      label: Label
+      type: string
+  - name: expertise
+    label: Expertise
+    type: object
+    fields:
+    - name: eyebrow
+      label: Eyebrow
+      type: string
+    - name: title
+      label: Title
+      type: string
+    - name: intro
+      label: Intro
+      type: text
+    - name: cards
+      label: Cards
+      type: object
+      list:
+        collapsible:
+          collapsed: true
+          summary: '{title}'
+      fields:
+      - name: icon
+        label: Icon
+        type: string
+      - name: title
+        label: Title
+        type: string
+      - name: description
+        label: Description
+        type: text
+      - name: tags
+        label: Tags
+        type: string
+        list: true
+  - name: tools
+    label: Tools
+    type: object
+    fields:
+    - name: eyebrow
+      label: Eyebrow
+      type: string
+    - name: title
+      label: Title
+      type: string
+    - name: items
+      label: Items
+      type: string
+      list: true
+  - name: projects
+    label: Projects
+    type: object
+    fields:
+    - name: eyebrow
+      label: Eyebrow
+      type: string
+    - name: title
+      label: Title
+      type: string
+    - name: intro
+      label: Intro
+      type: text
+    - name: items
+      label: Items
+      type: object
+      list:
+        collapsible:
+          collapsed: true
+          summary: '{title}'
+      fields:
+      - name: category
+        label: Category
+        type: string
+      - name: title
+        label: Title
+        type: string
+      - name: description
+        label: Description
+        type: text
+      - name: tags
+        label: Tags
+        type: string
+        list: true
+      - name: image
+        label: Image
+        type: image
+      - name: link
+        label: Link
+        type: string
+      - name: linkLabel
+        label: Link Label
+        type: string
+  - name: about
+    label: About
+    type: object
+    fields:
+    - name: eyebrow
+      label: Eyebrow
+      type: string
+    - name: title
+      label: Title
+      type: string
+    - name: paragraphs
+      label: Paragraphs
+      type: string
+      list: true
+    - name: highlights
+      label: Highlights
+      type: string
+      list: true
+  - name: certifications
+    label: Certifications
+    type: object
+    fields:
+    - name: eyebrow
+      label: Eyebrow
+      type: string
+    - name: title
+      label: Title
+      type: string
+    - name: items
+      label: Items
+      type: object
+      list:
+        collapsible:
+          collapsed: true
+          summary: '{title}'
+      fields:
+      - name: title
+        label: Title
+        type: string
+      - name: issuer
+        label: Issuer
+        type: string
+      - name: image
+        label: Image
+        type: image
+      - name: link
+        label: Link
+        type: string
+  - name: contact
+    label: Contact
+    type: object
+    fields:
+    - name: eyebrow
+      label: Eyebrow
+      type: string
+    - name: title
+      label: Title
+      type: string
+    - name: description
+      label: Description
+      type: text
+    - name: email
+      label: Email
+      type: string
+    - name: github
+      label: Github
+      type: string
+    - name: linkedin
+      label: Linkedin
+      type: string
+    - name: resume
+      label: Resume
+      type: file
+    - name: button
+      label: Button
+      type: string
+    - name: upwork
+      label: Upwork
+      type: string
+    - name: formEndpoint
+      label: Form Endpoint
+      type: string
+  - name: services
+    label: Services
+    type: object
+    fields:
+    - name: eyebrow
+      label: Eyebrow
+      type: string
+    - name: title
+      label: Title
+      type: string
+    - name: intro
+      label: Intro
+      type: text
+    - name: items
+      label: Items
+      type: object
+      list:
+        collapsible:
+          collapsed: true
+          summary: '{title}'
+      fields:
+      - name: icon
+        label: Icon
+        type: string
+      - name: title
+        label: Title
+        type: string
+      - name: description
+        label: Description
+        type: text
+      - name: tags
+        label: Tags
+        type: string
+        list: true
