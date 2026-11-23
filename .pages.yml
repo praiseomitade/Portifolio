@@ -2,7 +2,7 @@
 # Edit content with https://app.pagescms.org after authorizing your GitHub repository.
 media:
   input: assets
-  output: /Portfolio/assets
+  output: assets
   rename: safe
 content:
 - name: portfolio
