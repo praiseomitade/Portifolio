@@ -53,7 +53,7 @@
   "metrics": [
     {
       "value": "Excel + MySQL + Power BI",
-      "label": "Analytics workflows"
+      "label": "Data Analytics workflows"
     },
     {
       "value": "5+",
@@ -61,7 +61,7 @@
     },
     {
       "value": "2023",
-      "label": "Research support since"
+      "label": "Data Analytics since"
     }
   ],
   "expertise": {
@@ -106,9 +106,9 @@
     "title": "Technical Skills",
     "items": [
       "Microsoft Excel",
-      "MySQL",
       "Power BI",
       "Tableau",
+      "MySQL",
       "IBM SPSS"
     ]
   },
@@ -145,23 +145,21 @@
     "items": [
       {
         "title": "Data Analytics & Visualization with Tableau and Power BI",
-        "issuer": "AQskills"
+        "issuer": "AQskills",
+        "image": "/Portfolio/assets/data-analytics-and-visualization-with-tableau-and-power-bi.png",
+        "link": "https://www.aqskill.org/course/data-analytics-visualization-with-tableau-and-powerbi/lessons/tab-1-introduction-and-setup/"
       },
       {
         "title": "Database Management with MySQL",
-        "issuer": "AQskills"
+        "issuer": "AQskills",
+        "image": "/Portfolio/assets/database-management-for-my-sql-certificate.png",
+        "link": "https://www.aqskill.org/course/database-management-with-mysql/lessons/1-1-course-introduction/"
       },
       {
         "title": "Microsoft Excel",
-        "issuer": "AQskills"
-      },
-      {
-        "title": "Power BI",
-        "issuer": "AQskills"
-      },
-      {
-        "title": "SQL",
-        "issuer": "AQskills"
+        "issuer": "AQskills",
+        "image": "/Portfolio/assets/data-analysis-excel-certification.png",
+        "link": "https://www.aqskill.org/course/data-analysis-with-microsoft-excel-complete-course/lessons/1-1_introduction_to_data_analysis/"
       }
     ]
   },
