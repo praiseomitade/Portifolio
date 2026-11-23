@@ -45,7 +45,7 @@
     "title": "Data Analyst | I Help Businesses & Organizations Stop Guessing with Clear Dashboards, Reports & Data Insights | Excel, MySQL & Power BI",
     "primaryButton": "View My Projects",
     "secondaryButton": "Download Resume",
-   "image": "assets/headshot-linkedin.jpg",
+    "image": "/Portfolio/assets/headshot-linkedin.jpg",
     "imageAlt": "Portrait of Praise Omitade",
     "tagline": "Making data make sense.",
     "tertiaryButton": "Let's Connect"
@@ -170,6 +170,7 @@
     "email": "praiseomitade@gmail.com",
     "github": "https://github.com/praiseomitade",
     "linkedin": "https://www.linkedin.com/in/praiseomitade/",
+    "resume": "/Portfolio/assets/praise-omitade-resume-data-analyst.pdf",
     "button": "Email Me",
     "upwork": "https://www.upwork.com/freelancers/~01071d43340a9f0425?viewMode=1"
   },
