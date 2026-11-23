@@ -146,19 +146,19 @@
       {
         "title": "Data Analytics & Visualization with Tableau and Power BI",
         "issuer": "AQskills",
-        "image": "/Portfolio/assets/data-analytics-and-visualization-with-tableau-and-power-bi.png",
+        "image": "assets/data-analytics-and-visualization-with-tableau-and-power-bi.png",
         "link": " https://www.aqskill.org/verify/2651A288224"
       },
       {
         "title": "Database Management with MySQL",
         "issuer": "AQskills",
-        "image": "/Portfolio/assets/database-management-for-my-sql-certificate.png",
+        "image": "assets/database-management-for-my-sql-certificate.png",
         "link": " https://www.aqskill.org/verify/2093A288224"
       },
       {
         "title": "Microsoft Excel",
         "issuer": "AQskills",
-        "image": "/Portfolio/assets/data-analysis-excel-certification.png",
+        "image": "assets/data-analysis-excel-certification.png",
         "link": " https://www.aqskill.org/verify/850A288224"
       }
     ]
