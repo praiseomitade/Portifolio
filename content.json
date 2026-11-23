@@ -1,0 +1,257 @@
+{
+  "site": {
+    "name": "Praise Omitade",
+    "initials": "PO",
+    "availability": "Open to opportunities",
+    "footer": "© 2026 Praise Omitade. All rights reserved."
+  },
+  "navigation": [
+    {
+      "label": "Home",
+      "id": "home"
+    },
+    {
+      "label": "About",
+      "id": "about"
+    },
+    {
+      "label": "Expertise",
+      "id": "expertise"
+    },
+    {
+      "label": "Skills",
+      "id": "tools"
+    },
+    {
+      "label": "Services",
+      "id": "services"
+    },
+    {
+      "label": "Projects",
+      "id": "projects"
+    },
+    {
+      "label": "Certifications",
+      "id": "certifications"
+    },
+    {
+      "label": "Contact",
+      "id": "contact"
+    }
+  ],
+  "hero": {
+    "eyebrow": "DATA ANALYTICS · BUSINESS INTELLIGENCE · REPORTING",
+    "greeting": "",
+    "name": "Praise Omitade",
+    "title": "Data Analyst | I Help Businesses & Organizations Stop Guessing with Clear Dashboards, Reports & Data Insights | Excel, MySQL & Power BI",
+    "description": "",
+    "primaryButton": "View My Projects",
+    "secondaryButton": "Download Resume",
+    "image": "assets/profile.jpg",
+    "imageAlt": "Portrait of Praise Omitade",
+    "tagline": "Making data make sense.",
+    "tertiaryButton": "Let's Connect"
+  },
+  "metrics": [
+    {
+      "value": "SQL + BI",
+      "label": "Analytics workflows"
+    },
+    {
+      "value": "5+",
+      "label": "Analytical tools"
+    },
+    {
+      "value": "2023",
+      "label": "Research support since"
+    }
+  ],
+  "expertise": {
+    "eyebrow": "WHAT I DO",
+    "title": "From raw data to better decisions",
+    "intro": "I help teams organize information, measure what matters, and communicate results clearly.",
+    "cards": [
+      {
+        "icon": "◈",
+        "title": "Data Analysis",
+        "description": "Clean, validate, explore, and interpret datasets to answer practical questions.",
+        "tags": [
+          "Excel",
+          "SQL",
+          "SPSS"
+        ]
+      },
+      {
+        "icon": "▥",
+        "title": "Business Intelligence",
+        "description": "Create clear dashboards and reporting views that make performance easier to track.",
+        "tags": [
+          "Power BI",
+          "Tableau",
+          "Reporting"
+        ]
+      },
+      {
+        "icon": "⌁",
+        "title": "Research & Insights",
+        "description": "Support research workflows, statistical analysis, and evidence-based reporting.",
+        "tags": [
+          "SPSS",
+          "Research",
+          "Data Quality"
+        ]
+      }
+    ]
+  },
+  "tools": {
+    "eyebrow": "MY TOOLKIT",
+    "title": "Technical Skills",
+    "items": [
+      "Microsoft Excel",
+      "MySQL",
+      "Power BI",
+      "Tableau",
+      "IBM SPSS"
+    ]
+  },
+  "projects": {
+    "eyebrow": "SELECTED WORK",
+    "title": "Featured Projects",
+    "intro": "Explore examples of my analysis, reporting, and dashboard work. Each project will include its tools, a brief summary, and a link to the full case study.",
+    "items": [
+      {
+        "category": "SALES ANALYTICS · PORTFOLIO CASE STUDY",
+        "title": "E-Commerce Sales Performance Analysis",
+        "description": "A portfolio case study exploring sales performance, reporting, and opportunities for clearer business decisions.",
+        "tags": [
+          "Excel",
+          "Data Cleaning",
+          "Reporting"
+        ],
+        "image": "",
+        "link": "",
+        "linkLabel": "View Project"
+      }
+    ]
+  },
+  "about": {
+    "eyebrow": "ABOUT ME",
+    "title": "About Me",
+    "paragraphs": [
+      "I'm Praise Omitade, a Data Analyst with over two years of experience in data analysis, research, and reporting. Over the years, I've worked with different datasets, gaining practical experience in data collection, cleaning, analysis, interpretation, and preparing reports.",
+      "I've also developed my technical skills in Microsoft Excel, MySQL, Power BI, Tableau, and IBM SPSS, supported by professional certifications from AQskills. My skills include data entry, data cleaning, database management, SQL queries, PivotTables, Power Query, data visualization, dashboard development, and reporting.",
+      "I help businesses and organizations understand their data, identify trends, track performance, and make informed decisions. I approach every project with attention to detail, accuracy, and a clear understanding of what needs to be achieved. My focus is on delivering reliable analysis, well-structured reports, and practical recommendations that address real business needs."
+    ],
+    "highlights": []
+  },
+  "certifications": {
+    "eyebrow": "PROFESSIONAL DEVELOPMENT",
+    "title": "Certifications",
+    "items": [
+      {
+        "title": "Data Analytics & Visualization with Tableau and Power BI",
+        "issuer": "AQskills",
+        "image": "",
+        "link": ""
+      },
+      {
+        "title": "Database Management with MySQL",
+        "issuer": "AQskills",
+        "image": "",
+        "link": ""
+      },
+      {
+        "title": "Microsoft Excel",
+        "issuer": "AQskills",
+        "image": "",
+        "link": ""
+      },
+      {
+        "title": "Power BI",
+        "issuer": "AQskills",
+        "image": "",
+        "link": ""
+      },
+      {
+        "title": "SQL",
+        "issuer": "AQskills",
+        "image": "",
+        "link": ""
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "GET IN TOUCH",
+    "title": "Let's Work Together",
+    "description": "Have a project, reporting need, or opportunity in mind? I'd be glad to hear from you.",
+    "email": "",
+    "github": "https://github.com/praiseomitade",
+    "linkedin": "",
+    "resume": "",
+    "button": "Email Me",
+    "upwork": "",
+    "formEndpoint": ""
+  },
+  "services": {
+    "eyebrow": "HOW I CAN HELP",
+    "title": "Services",
+    "intro": "Practical data support for businesses, organizations, and research projects.",
+    "items": [
+      {
+        "icon": "▦",
+        "title": "Data Cleaning & Preparation",
+        "description": "Organize, validate, and prepare datasets for reliable analysis and reporting.",
+        "tags": [
+          "Excel",
+          "Power Query"
+        ]
+      },
+      {
+        "icon": "▥",
+        "title": "Dashboards & Reporting",
+        "description": "Build clear dashboards and reports to help teams monitor results and performance.",
+        "tags": [
+          "Power BI",
+          "Excel",
+          "Tableau"
+        ]
+      },
+      {
+        "icon": "⌘",
+        "title": "SQL & Database Analysis",
+        "description": "Work with databases, write SQL queries, and retrieve data for reporting and analysis.",
+        "tags": [
+          "MySQL",
+          "SQL"
+        ]
+      },
+      {
+        "icon": "◫",
+        "title": "Research & Statistical Analysis",
+        "description": "Support research data analysis, interpretation, and structured reporting.",
+        "tags": [
+          "IBM SPSS",
+          "Excel"
+        ]
+      },
+      {
+        "icon": "↗",
+        "title": "Performance & Trend Analysis",
+        "description": "Examine trends and key indicators to identify changes and areas that need attention.",
+        "tags": [
+          "Power BI",
+          "Excel"
+        ]
+      },
+      {
+        "icon": "≡",
+        "title": "Data Entry & Quality Checks",
+        "description": "Enter, review, and check datasets for completeness, consistency, and accuracy.",
+        "tags": [
+          "Excel",
+          "Data Quality"
+        ]
+      }
+    ]
+  }
+}
