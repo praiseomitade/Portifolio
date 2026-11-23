@@ -16,14 +16,16 @@ function render(d) {
   el('expertise-heading').innerHTML = heading(d.expertise);
   el('expertise-cards').innerHTML = (d.expertise.cards || []).map(c => `<article class="card"><div class="card-icon" aria-hidden="true">${esc(c.icon)}</div><h3>${esc(c.title)}</h3><p>${esc(c.description)}</p><div class="tags">${tags(c.tags)}</div></article>`).join('');
   el('tools-heading').innerHTML = heading(d.tools);
-  const toolIcons = {
-    'microsoft excel': ['excel.svg', 'EX'],
-    'mysql': ['mysql.svg', 'SQL'],
-    'sql / mysql': ['mysql.svg', 'SQL'],
-    'power bi': ['powerbi.svg', 'BI'],
-    'tableau': ['tableau.svg', 'TB'],
-    'ibm spss': ['spss.svg', 'SP']
-  };
+  
+const toolIcons = {
+  'microsoft excel': ['excel.png', 'EX'],
+  'mysql': ['MySQL.png', 'SQL'],
+  'sql / mysql': ['MySQL.png', 'SQL'],
+  'power bi': ['Microsoft Power BI.png', 'BI'],
+  'tableau': ['tableau.png', 'TB'],
+  'ibm spss': ['IBM.png', 'SP']
+};
+
   el('tool-cloud').innerHTML = (d.tools.items || []).map(tool => {
     const name = String(tool).trim();
     const icon = toolIcons[name.toLowerCase()];
