@@ -1,7 +1,7 @@
 'use strict';
 const el = id => document.getElementById(id);
 const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const url = input => { const value = String(input ?? '').trim(); if (!value) return ''; if (/^(https?:\/\/|mailto:)/i.test(value) || (/^(assets\/|#)/.test(value) && !value.includes('..'))) return esc(value); return ''; };
+const url = input => { const value = String(input ?? '').trim(); if (!value) return ''; if (/^(https?:\/\/|mailto:)/i.test(value) || (/^(assets\/|projects\/|#)/.test(value) && !value.includes('..'))) return esc(value); return ''; };
 const tags = list => (list || []).map(t => `<span class="tag">${esc(t)}</span>`).join('');
 function heading(data) { return `<span class="eyebrow">${esc(data.eyebrow)}</span><h2>${esc(data.title)}</h2>${data.intro ? `<p>${esc(data.intro)}</p>` : ''}`; }
 function render(d) {
