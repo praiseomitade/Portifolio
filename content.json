@@ -118,16 +118,19 @@
     "intro": "Explore examples of my analysis, reporting, and dashboard work. Each project will include its tools, a brief summary, and a link to the full case study.",
     "items": [
       {
-        "category": "SALES ANALYTICS · PORTFOLIO CASE STUDY",
-        "title": "E-Commerce Sales Performance Analysis",
-        "description": "A portfolio case study exploring sales performance, reporting, and opportunities for clearer business decisions.",
-        "tags": [
-          "Excel",
-          "Data Cleaning",
-          "Reporting"
-        ],
-        "linkLabel": "View Project"
-      }
+  "category": "SALES ANALYTICS · PORTFOLIO CASE STUDY",
+  "title": "E-Commerce Sales Performance Analysis",
+  "description": "Analyzed 600 e-commerce transactions to evaluate revenue, profitability, customer orders, and regional performance. Developed an Excel executive dashboard and documented key findings.",
+  "tags": [
+    "Excel",
+    "Data Cleaning",
+    "Sales Analytics",
+    "Reporting"
+  ],
+  "image": "projects/ecommerce/Ecommerce-Executive-Dashboard.png",
+  "link": "projects/ecommerce/",
+  "linkLabel": "View Project"
+}
     ]
   },
   "about": {
