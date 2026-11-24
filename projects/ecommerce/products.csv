@@ -1,0 +1,21 @@
+product_id,product_name,category,list_price_usd,standard_unit_cost_usd
+P001,Wireless Mouse,Electronics,22,11
+P002,Mechanical Keyboard,Electronics,74,39
+P003,USB-C Hub,Electronics,39,19
+P004,Bluetooth Speaker,Electronics,65,33
+P005,Laptop Stand,Office,43,20
+P006,Desk Organizer,Office,19,8
+P007,Notebook Set,Office,17,6
+P008,LED Desk Lamp,Office,48,23
+P009,Water Bottle,Lifestyle,26,10
+P010,Travel Mug,Lifestyle,31,13
+P011,Backpack,Lifestyle,62,29
+P012,Yoga Mat,Lifestyle,37,15
+P013,Phone Case,Accessories,18,6
+P014,Charging Cable,Accessories,14,5
+P015,Power Bank,Accessories,54,27
+P016,Wireless Charger,Accessories,42,19
+P017,Storage Basket,Home,29,12
+P018,Throw Pillow,Home,35,16
+P019,Kitchen Scale,Home,27,12
+P020,Coffee Grinder,Home,83,43
